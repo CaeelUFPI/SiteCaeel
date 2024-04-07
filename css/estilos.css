@@ -113,12 +113,12 @@ header{
     display:none;
 }
 
-.main-content h2{
+#about h2{
 	font-size: 2.5rem; //letra
 	
 }
 
-.main-content p{
+#about p{
 	font-size: 2.5rem; //letra
 	color: #007bff;
 	
