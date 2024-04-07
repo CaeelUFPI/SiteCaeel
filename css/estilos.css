@@ -140,7 +140,6 @@ position:relative;
  position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Centraliza verticalmente */
   margin-top: 10px; /* Adiciona margem superior */
 }
 
