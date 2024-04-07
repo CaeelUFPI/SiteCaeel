@@ -137,12 +137,11 @@ position:relative;
 }
 
 .controls {
-  position: relative;
+ position: relative;
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: center; /* Centraliza verticalmente */
-transform: translateY(-10%); /* Move os botões para cima pela metade da altura */
+  margin-top: 10px; /* Adiciona margem superior */
 }
 
 .prev, .next {
