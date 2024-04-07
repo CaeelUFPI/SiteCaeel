@@ -136,11 +136,21 @@ header{
 }
 
 .controls {
-  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centraliza verticalmente */
+  margin-top: 10px; /* Adiciona margem superior */
 }
 
 .prev, .next {
   margin: 10px;
+  background-color: #007bff; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  cursor: pointer; /* Altera o cursor ao passar sobre o botão */
 }
 
 
