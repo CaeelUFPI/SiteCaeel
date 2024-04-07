@@ -136,11 +136,13 @@ header{
 }
 
 .controls {
-  position: relative;
+  position: absolute;
+  top: 50%;
   display: flex;
   justify-content: space-between;
+  width: 100%;
   align-items: center; /* Centraliza verticalmente */
-  margin-top: 10px; /* Adiciona margem superior */
+  transform: translateY(-50%);
 }
 
 .prev, .next {
