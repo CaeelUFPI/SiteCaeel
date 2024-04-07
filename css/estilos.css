@@ -125,6 +125,7 @@ header{
 /*Eventos*/
 
 .album {
+position:relative;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -142,7 +143,6 @@ header{
   justify-content: space-between;
   width: 100%;
   align-items: center; /* Centraliza verticalmente */
-  transform: translateY(-50%);
 }
 
 .prev, .next {
