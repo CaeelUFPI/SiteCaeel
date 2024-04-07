@@ -124,6 +124,27 @@ header{
 
 /*Eventos*/
 
+.album {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.photo {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.controls {
+  text-align: center;
+}
+
+.prev, .next {
+  margin: 10px;
+}
+
+
+
 section{
     width: 80%;
     margin: 80px auto;
