@@ -146,6 +146,7 @@ transform: translateY(-10%); /* Move os botões para cima pela metade da altura 
 }
 
 .prev, .next {
+float: left:
   margin: 10px;
   background-color: #007bff; /* Cor de fundo */
   color: #fff; /* Cor do texto */
