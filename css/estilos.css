@@ -293,6 +293,36 @@ iframe{
     align-items: center;    
 }
 
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.news-category {
+    margin-bottom: 30px;
+}
+
+.news-article {
+    text-align: center;
+}
+
+.news-article img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.news-article-column {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
 .formulario{
     padding: 0;
     display: flex;
