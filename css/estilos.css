@@ -142,6 +142,7 @@ position:relative;
   justify-content: space-between;
   width: 100%;
   align-items: center; /* Centraliza verticalmente */
+transform: translateY(-10%); /* Move os botões para cima pela metade da altura */
 }
 
 .prev, .next {
@@ -152,7 +153,6 @@ position:relative;
   border: none; /* Remove a borda */
   border-radius: 5px; /* Adiciona bordas arredondadas */
   cursor: pointer; /* Altera o cursor ao passar sobre o botão */
-  transform: translateY(-10%); /* Move os botões para cima pela metade da altura */
 }
 
 
