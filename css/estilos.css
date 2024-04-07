@@ -137,10 +137,11 @@ position:relative;
 }
 
 .controls {
- position: relative;
-  display: flex;
+display: flex;
   justify-content: space-between;
-  margin-top: 10px; /* Adiciona margem superior */
+  align-items: center; /* Centraliza verticalmente os botões */
+  width: 100%; /* Garante que os botões ocupem toda a largura do contêiner */
+  margin-top: 20px; /* Ajusta a margem entre o álbum de fotos e os botões */
 }
 
 .prev, .next {
@@ -152,8 +153,13 @@ float: left:
   border: none; /* Remove a borda */
   border-radius: 5px; /* Adiciona bordas arredondadas */
   cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo */
 }
 
+.prev:hover,
+.next:hover {
+  background-color: #0056b3; /* Altera a cor de fundo ao passar o mouse */
+}
 
 
 section{
