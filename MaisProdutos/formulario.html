@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Denúncia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Envie sua Denúncia</h1>
+        <p>Sua denúncia é anônima.</p>
+        <textarea id="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+        <button onclick="enviarDenuncia()">Enviar</button>
+    </div>
+
+    <script>
+        function enviarDenuncia() {
+            var mensagem = document.getElementById("mensagem").value;
+            if (mensagem.trim() === "") {
+                alert("Por favor, escreva sua mensagem.");
+                return;
+            }
+
+            // Simula o envio da denúncia
+            alert("Sua denúncia foi enviada anonimamente. Obrigado!");
+            document.getElementById("mensagem").value = "";
+        }
+    </script>
+</body>
+</html>
