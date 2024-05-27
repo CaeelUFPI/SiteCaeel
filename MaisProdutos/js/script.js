@@ -1,11 +1,8 @@
-var listaProdutos = [[0,'Banana','bananas.jpg','A banana da quitanda é especial! Estamos te esperando...',false,'3,44'],
-[1,'Café','cafe.jpg','O café da quitanda é especial! Estamos te esperando...',false,'5,55'],
-[2,'Batata','batata.jpg','A batata da quitanda é especial! Estamos te esperando...',false,'6,00'],
-[3,'Brocolis','brocolis.jpg','O brócolis da quitanda é especial! Estamos te esperando...',false,'10,52'],
-[4,'Figo','figo.jpg','O figo da quitanda é especial! Estamos te esperando...',false,'0,85'],
-[5,'Macarrão','macarrao.jpg','O macarrão da quitanda é especial! Estamos te esperando...',false,'0,85'],
-[6,'Morango','morango.jpg','O morango da quitanda é especial! Estamos te esperando...',false,'4,23'],
-[7,'Tomate','tomate.jpg','O tomate da quitanda é especial! Estamos te esperando...',false,'3,00']]
+var listaProdutos = [[0,'Denuncia','bananas.jpg','A banana da quitanda é especial! Estamos te esperando...',false,'3,44'],
+[1,'Reclamação','cafe.jpg','O café da quitanda é especial! Estamos te esperando...',false,'5,55'],
+[2,'Elogio','batata.jpg','A batata da quitanda é especial! Estamos te esperando...',false,'6,00'],
+[3,'Solicitação','brocolis.jpg','O brócolis da quitanda é especial! Estamos te esperando...',false,'10,52'],
+[4,'Sugestão','figo.jpg','O figo da quitanda é especial! Estamos te esperando...',false,'0,85']]
 
 var carrinho = [];
 
@@ -52,5 +49,3 @@ function comprar(id){
 
     montarCardProdutos();
 }
-
-
