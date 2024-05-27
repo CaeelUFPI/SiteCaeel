@@ -1,4 +1,4 @@
-var listaProdutos = [[0,'Denuncia','bananas.jpg','A banana da quitanda é especial! Estamos te esperando...',false,'3,44'],
+var listaProdutos = [[0,'Denuncia','denuncia.png','A banana da quitanda é especial! Estamos te esperando...',false,'3,44'],
 [1,'Reclamação','cafe.jpg','O café da quitanda é especial! Estamos te esperando...',false,'5,55'],
 [2,'Elogio','batata.jpg','A batata da quitanda é especial! Estamos te esperando...',false,'6,00'],
 [3,'Solicitação','brocolis.jpg','O brócolis da quitanda é especial! Estamos te esperando...',false,'10,52'],
